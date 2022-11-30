@@ -8,3 +8,4 @@
 # allocate money to these trades if money is remaining
 
 # send update email to user / include all the data calculated (incl. best possible trades even if no balance)
+
