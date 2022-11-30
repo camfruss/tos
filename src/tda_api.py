@@ -5,8 +5,8 @@ def load_user():
     # returns User obj
     pass
 
-def find_writes():
-    # return if unchanged > 1%/mo. & downside protection is > 10pts.
+def load_stocks():
+    # get all stocks and their option chains
     pass
 
 def execute(trade: Trade):
