@@ -18,7 +18,7 @@ def update_env(key, val):
 
 
 def main():
-    parser.add_argument("action", required=True, help="Specifies action. Current options: 'config', 'refresh_token', and 'new_token'")
+    parser.add_argument("action", help="Specifies action. Current options: 'config', 'refresh_token', and 'new_token'")
     parser.add_argument("--consumer_key", type=str, help="TDA API Consumer Key")
     parser.add_argument("--account_id", type=str, help="TDA Account ID")
     parser.add_argument("-e", "--email", type=str, help="Your email")
@@ -41,3 +41,7 @@ def main():
             update_env("REDIRECT_URI", args.redirect_uri)
     else:
         raise ValueError("Invalid tos action")
+
+
+if __name__ == "__main__":
+    main()
