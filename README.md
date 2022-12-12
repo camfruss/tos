@@ -46,3 +46,7 @@ versions.
 TODO: make available on pypi
 
 `token.py` breaks all imports, so re-name
+
+
+TODO: ignore all stocks that pay dividends
+

@@ -81,3 +81,7 @@ when rolliong up, a debit is incurred (it required new funds)
 
 if call is trading below parity, will be exercised
 time value premium on option = call price + strike price - stock price 
+
+
+
+Sell at the BID for covered calls
